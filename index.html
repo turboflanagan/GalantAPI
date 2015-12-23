@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galant VR4 goodness!</title>
+		<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<!-- The below script is added to deal with tooltip conflict between bootstrap and jqueryUI.  Using JuqeryUI tooltip function named uitooltip. -->
+		<script type="text/javascript">$.widget.bridge("uitooltip", $.ui.tooltip);</script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div class="form-wrapper">
+		<form id="register" name="inputForm" onsubmit="">
+			<div id="personal-info" class="form-group">
+				<h1>Register your VR4 info!</h1>
+
+				<div class="section">Info About You
+					<div class="inner-wrap">
+						<label class="control-label">Your Full Name <input class="form-control" id="name" type="text" name="fullName" placeholder="Enter your name"></label>
+						<label class="control-label">Your Screen Name <input class="form-control" placeholder="Enter your screen name"></label>
+						<label class="control-label">Where In The World Are You? <input class="form-control" placeholder="Atlanta, GA"></label>
+						<label class="control-label">Registration Date <input class="form-control" placeholder="Date you registered."></label>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="section">Basic Car Info
+					<div class="inner-wrap">
+						<label class="control-label">Year <input class="form-control" type="text" name="year" placeholder="199?"></label>
+						<label class="control-label">Car Number <input class="form-control" placeholder="100/1000"></label>
+						<label class="control-label">Color <input class="form-control" placeholder="black, gray, green, white,... blue... :-)"></label>
+						<label class="control-label">Mileage <input class="form-control" placeholder="2 Millllion Miles..."></label>
+						<label class="control-label"> Car Status <input class="form-control" placeholder="JSB, Daily Driver, Trailer Queen, ..."></label>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="section">Car Mod Info
+					<div class="inner-wrap">
+						<label class="control-label">Engine Mods <input class="form-control" type="text" name="year" placeholder="ie: eagle rods, Wiseco pistons, kevlar timing belt, etc..."></label>
+						<label class="control-label">Fuel System Mods <input class="form-control" placeholder="Need. More. Fuel!"></label>
+						<label class="control-label">Turbo Mods <input class="form-control" placeholder="My turbo is a ..."></label>
+						<label class="control-label">Intercooler <input class="form-control" placeholder="Intercooler type"></label>
+						<label class="control-label">Transmission <input class="form-control" placeholder="Stock, beefy rebuild, dogbox, ..."></label>
+						<label class="control-label">Suspension Mods <input class="form-control" placeholder="List suspension mods"></label>
+						<label class="control-label">Body Mods <input class="form-control" placeholder="Not talking about your piercings..."></label>
+						<label class="control-label">Interior Mods <input class="form-control" placeholder="List 'em here"></label>
+						<label class="control-label">Stereo Mods <input class="form-control" placeholder="Stereo info"></label>
+
+					</div>
+				</div>
+				<div id="submit-wrapper" class="button-section">
+					<input id="info-submit" type="submit" value="Add my info!">
+				</div>
+			</div>
+		</form>	
+	</div>
+
+</body>
+</html>
+
+
+
+
+				
