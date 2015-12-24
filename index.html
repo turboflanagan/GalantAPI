@@ -3,14 +3,10 @@
 <head>
 	<title>Galant VR4 goodness!</title>
 		<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-		<!-- The below script is added to deal with tooltip conflict between bootstrap and jqueryUI.  Using JuqeryUI tooltip function named uitooltip. -->
-		<script type="text/javascript">$.widget.bridge("uitooltip", $.ui.tooltip);</script>
+		<!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		
 </head>
 <body>
 
@@ -53,16 +49,35 @@
 						<label class="control-label">Body Mods <input class="form-control" placeholder="Not talking about your piercings..."></label>
 						<label class="control-label">Interior Mods <input class="form-control" placeholder="List 'em here"></label>
 						<label class="control-label">Stereo Mods <input class="form-control" placeholder="Stereo info"></label>
-
+						<label class="control-label">Horsepower! <input class="form-control" placeholder="How many ponies do you have? and torque..."></label>
 					</div>
 				</div>
-				<div id="submit-wrapper" class="button-section">
-					<input id="info-submit" type="submit" value="Add my info!">
+			</div>
+
+			<div id="pics" class="form-group">
+				<div class="section">Upload your pics
+					<div class="inner-wrap">
+						<label class="control-label">Your Full Name Select images: <input type="file" name="img" multiple class="form-control" placeholder="Choose wisely young grasshopper"></label>
+					</div>
 				</div>
 			</div>
+
+			<div id="submit-wrapper" class="button-section">
+				<input id="info-submit" type="submit" value="Add my info!">
+			</div>
+
 		</form>	
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+	<!-- <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript">
+    	$(document).ready(function () {
+        	$("#name").focus(); 
+    	});
 
+	</script>
 </body>
 </html>
 

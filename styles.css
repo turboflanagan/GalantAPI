@@ -7,9 +7,13 @@ body {
 	width: 550px;
 	padding: 30px;
 	margin: 20px auto;
-	background-color: #fff;
+	background-color: #E2DED5;
 	border-radius: 6px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.13);
+}
+
+#register {
+	background-color: #E2DED5;
 }
 
 .form-wrapper .inner-wrap{
@@ -24,7 +28,6 @@ body {
 	padding: 8px;
 	border-radius: 6px;
 	border: 2px solid white;
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
 	margin-bottom: 10px;
 	margin-top: 5px;
 }
@@ -42,26 +45,19 @@ body {
 	background-image: url("checkered-flag-background.jpg");
 	padding: 20px 30px 15px 30px;
 	
-	/*color: white;*/
 	border-radius: 10px 10px 0px 0px;
 	text-align: center;
-	/*text-shadow: 3px 3px 3px rgba(0, 0, 0, .8);*/
-/*	font-size: 30px;
-	font-family: serif;*/
 	font: 30px, Arial, Helvetica, sans-serif;
-	/*box-shadow: 0px 2px 2px 0px rgba(255,255,255, 0.17);*/
 }
 
 .form-wrapper .section{
 	font: 20px serif;
 	color: #2a88ad;
 	margin-bottom: 10px;
-	/*ADDED*/
 	margin-top: 20px;
 }
 
 .form-wrapper label{
-	/*ADDED*/
     display: block;
     font: 13px Arial, Helvetica, sans-serif;
     color: #888;
@@ -74,7 +70,7 @@ body {
 	border-radius: 6px;
 	color: white;
 	font: 16px 'serif';
-	border: 1px solid #257c9e;
+	border: 2px solid #257c9e;
 	cursor: pointer;	
 }
 
@@ -86,9 +82,14 @@ body {
 	text-align: center;
 }
 
+.section {
+	background-color: #E2DED5;
+}
 
+.form-control {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
 
-
+}
 
 
 
